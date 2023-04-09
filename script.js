@@ -14,6 +14,9 @@ for(let i = 0; i < btn.length; i++){
 function someFunction(){
     for(let i = 0; i < warning.length; i++){
         hideWarnings(i);
+        output[0].textContent = '--';
+        output[1].textContent = '--'; 
+        output[2].textContent = '--';
     }
     let days = Number(document.querySelector('#days').value);
     let months = Number(document.querySelector('#months').value);
